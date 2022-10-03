@@ -18,3 +18,7 @@ insert into tb_colaboradores(nome,nomeBanco,salario,nFamiliar,ativo) values ("SÃ
 insert into tb_colaboradores(nome,nomeBanco,salario,nFamiliar,ativo) values ("Mayara","Caju",500.00,1,true);
 insert into tb_colaboradores(nome,nomeBanco,salario,nFamiliar,ativo) values ("Raquel","Caju",500.00,1,true);
 insert into tb_colaboradores(nome,nomeBanco,salario,nFamiliar,ativo) values ("Jefinho","Caju",500.00,1,false);
+
+select * from tb_colaboradores where salario <=2000 ;
+select * from tb_colaboradores where salario>= 2000;*/
+
